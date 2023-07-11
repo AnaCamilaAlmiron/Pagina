@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(211, 207, 207);
+  padding: 20px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.ada {
+  color: palevioletred;
+}
+
+.link:hover {
+  color: palevioletred;
+}
+
+.fondo {
+  background-image: url("./images/hero.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.button {
+  background-color: palevioletred;
+  color: white;
+  border: 0;
+  padding: 15px 30px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 65px;
+}
+
+.introduccion {
+  display: flex;
+  justify-content: space-between;
+  margin: 165px 100px;
+  gap: 100px;
+}
+
+.image {
+  height: 400px;
+  width: 300px;
+  background-image: url("./images/programadorassssss.png");
+  background-position: 60% 50%;
+  background-size: cover;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rosita {
+  color: palevioletred;
+}
+
+.programas {
+  background-color: black;
+  color: whitesmoke;
+  height: 100vh;
+  padding: 100px 0;
+}
+
+.programas-titulo,
+.descripcion,
+.centrar {
+  text-align: center;
+}
+
+.tarjeta-1 {
+  background-image: url("./images/front-end.jpg");
+}
+
+.tarjeta-2 {
+  background-image: url("./images/full-stack.jpg");
+  background-position: 50%;
+}
+
+.tarjeta-3 {
+  background-image: url("./images/python.jpg");
+  background-position: 50%;
+}
+
+.tarjeta {
+  background-color: grey;
+  color: aliceblue;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 50px;
+}
+
+.boton-centrado {
+  display: block;
+  margin: 0 auto;
+  background-color: palevioletred;
+  color: whitesmoke;
+  border: 0;
+  padding: 10px;
+}
+
+.centrar {
+  padding: 40px;
+}
+
+.caracteristicas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.final {
+  color: whitesmoke;
+  background-color: palevioletred;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.button-2 {
+  background-color: rgb(192, 71, 111);
+  border: 0;
+  color: whitesmoke;
+  padding: 12px;
+}
+
+.pregunta {
+  font-size: 100px;
+}
